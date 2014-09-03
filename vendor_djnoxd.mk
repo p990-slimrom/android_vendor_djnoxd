@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/djnoxd/Xposed/de.robv.android.xposed.installer_v33_36570c.apk:data/app/de.robv.android.xposed.installer_v33_36570c.apk
 
 
-#System settings
-PRODUCT_PROPERTY_OVERRIDES += \
-     persist.sys.dalvik.vm.lib=libart.so
-
+##System settings
+#PRODUCT_PROPERTY_OVERRIDES += \
+#     persist.sys.dalvik.vm.lib=libart.so
