@@ -10,7 +10,9 @@ PRODUCT_COPY_FILES += \
 # Copy Xposed
 PRODUCT_COPY_FILES += \
     vendor/djnoxd/Xposed/de.robv.android.xposed.installer_v33_36570c.apk:data/app/de.robv.android.xposed.installer_v33_36570c.apk
-
+# Copy XposedModules
+PRODUCT_COPY_FILES += \
+    vendor/djnoxd/XposedModules/HKThemeManagerv7.1.apk:data/app/HKThemeManagerv7.1.apk
 
 ##System settings
 #PRODUCT_PROPERTY_OVERRIDES += \
