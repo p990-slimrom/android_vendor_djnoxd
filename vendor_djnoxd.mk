@@ -5,7 +5,7 @@
 
 # Copy PerformanceControl
 PRODUCT_COPY_FILES += \
-    vendor/djnoxd/control/PerformanceControl-2.2.4.apk:system/app/PerformanceControl-2.2.4.apk
+    vendor/djnoxd/control/PerformanceControl-2.2.5.apk:system/app/PerformanceControl-2.2.5.apk
 
 # Copy Xposed
 PRODUCT_COPY_FILES += \
